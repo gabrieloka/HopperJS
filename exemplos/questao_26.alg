@@ -1,0 +1,25 @@
+algoritmo "Numero primo"
+// Função : Determinar se número é o não é primo
+// Autor : Daniel
+// Data : 7/5/2013
+// Seção de Declarações 
+var
+   num, i, j: inteiro
+inicio
+   // Seção de Comandos
+   repita
+      escreva("Escreva um numero inteiro positivo: ")
+      leia(num)
+   j <- 0
+   para i de 1 ate num faca
+	se((num mod i) = 0) entao
+                j <- j + 1
+        fimse
+   fimpara
+   se j > 2 entao
+        escreva("O número não é primo")
+   senao
+        escreva("O número é primo")
+   fimse
+ ate (num > 0)
+fimalgoritmo

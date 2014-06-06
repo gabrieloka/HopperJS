@@ -1,0 +1,22 @@
+algoritmo "primo"
+
+var
+i,num,div:inteiro
+
+inicio
+
+div<-0
+escreva("Digite um numero")
+leia (num)
+para i de 2 ate num faca
+	se (num%i=0) entao
+		div<-div+1
+	fimse
+fimpara
+se (div=1) entao
+	escreva("O numero e primo")
+senao
+	escreva("O numero nao e primo")
+fimse
+
+fimalgoritmo
