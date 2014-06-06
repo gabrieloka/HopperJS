@@ -28,5 +28,7 @@ Para se compilar um código em portugol deve-se alterar o arquivo executa_teste.
 
 O make clean limpa/deleta todos os arquivos criados pela execução do HopperJS, enquanto o make teste executa a compilação.
 
+Para ver o código .js é so abrir o arquivo traducao.js na pasta src e para ver o código .js rodando é so da um duplo clique no arquivo index.html na pasta src
+
 ======
 OBS:Por se tratar de um trabalho de uma matéria de graduação o HopperJs não é um compilador completo, porém ja traduz os comando se, escolha, e enquanto perfeitamente, no caso do comando repita é preciso que a condição utilizada seja uma negação da que normalmente seria usada, e no comando para ele só consegue fazer um tradução correta quando o para é crescente, contendo ou não passo. 

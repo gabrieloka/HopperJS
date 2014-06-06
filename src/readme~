@@ -6,6 +6,6 @@ compilar
  make 
 
 compilar e executar script que chama o analisador léxico
-> make teste 
+> make teste N=(valor n)
 
-
+valor n : Número total de arquivos a serem analisados
